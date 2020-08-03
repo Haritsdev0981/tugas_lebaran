@@ -11,7 +11,7 @@ class lebaran extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white12,
+        backgroundColor: Colors.deepOrangeAccent,
         title: Text(
           "Aplikasi Resep Makanan",
           style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.bold,),
@@ -39,42 +39,42 @@ class _PageList extends StatefulWidget {
 class __PageListState extends State<_PageList> {
 
   List<String> title = [
-    'Bakso Saya Bulat'
-        'Pecelele Mas Nabih'
-        'Nasi Goreng basah'
-        'Soto Lamongan'
-        'Soto Babat Tebel'
+    'Bakso Saya Bulat',
+    'Pecelele Mas Nabih',
+    'Nasi Goreng basah',
+    'Soto Lamongan',
+    'Soto Babat Tebel',
   ];
   List<String> subTitle = [
-    'Bakso yang dibuat dengat hari yang tulus sehinga menjadi bulat'
-        'Pecel lele mas nabih asli terkenal sampe 1 Rw'
-        'Nasi Goreng basah Nasi yang di gorang tapi basah'
-        'Soto Lamongan gurih, asin, manis, hambar, ada semuanya di situ'
-        'Soto babat tebel enak tebel banget, tebel banget'
+    'Bakso yang dibuat dengat hari yang tulus sehinga menjadi bulat',
+    'Pecel lele mas nabih asli terkenal sampe 1 Rw',
+    'Nasi Goreng basah Nasi yang di gorang tapi basah',
+    'Soto Lamongan gurih, asin, manis, hambar, ada semuanya di situ',
+    'Soto babat tebel enak tebel banget, tebel banget',
   ];
   List<String> bahan = [
-    'Daging (Terserah kambing, sapi, bisa & juga ayamn\n garem\n gula (bisa gula pasir, gula tanah, dan gula lainnya)\n belender(buat giling)\n aer/ air(Masak air biar mateng))'
-        'Ikan lele(bisa ikan pari ikan yang lainnya, tpi itu namanya bkn pecel lele)\n garem\n cabe buat sambel\n minyak\n kompor & gas \n Spatula (yg punya sponsbob biar rasanya kyk krabypaty)'
-        'Nasi\n kecap \n garem & gula \n aer(Kan namanya nasi goreng basah)\n cabe cabe cabe cabe cabe'
-        'Dagin sapi atau kambin atau ayam\n garem \n gula \n Air buat kuah soto \n bawang goreng'
-        'Dagin sapi atau kambin atau ayam\n garem \n gula \n Air buat kuah soto \n bawang goreng'
-
+    'Daging (Terserah kambing, sapi, bisa & juga ayamn\n garem\n gula (bisa gula pasir, gula tanah, dan gula lainnya)\n belender(buat giling)\n aer/ air(Masak air biar mateng))',
+    'Ikan lele(bisa ikan pari ikan yang lainnya, tpi itu namanya bkn pecel lele)\n garem\n cabe buat sambel\n minyak\n kompor & gas \n Spatula (yg punya sponsbob biar rasanya kyk krabypaty)',
+    'Nasi\n kecap \n garem & gula \n aer(Kan namanya nasi goreng basah)\n cabe cabe cabe cabe cabe',
+    'Dagin sapi atau kambin atau ayam\n garem \n gula \n Air buat kuah soto \n bawang goreng',
+    'Dagin sapi atau kambin atau ayam\n garem \n gula \n Air buat kuah soto \n bawang goreng',
   ];
   List<String> cara = [
-    'Daging digiling di blender, trus kasih aer biar mateng giling dagin, kasih garem kasih gula, udah digiling dibentuk, di masak... makan'
-        'Ikan lele masukin ke pengorenagn trus di goreng make minyak bimoli(SPONSOR), Trus angkat klo kira kira daj mateng, kasih sampel... makan'
-        'Nasi masukin ke penggorengan kasih kecap kasih cabe kasih bawah trus goreng abis itu kasih air klo mau basah trus angkat.... makan'
-        'Daging sapi, tomat cabe, kentang siapin. klo udah masukin ke kuah soto nya trus jangan lupa kasih garem biar enak trus cobain....makan'
-        'Daging sapi, tomat cabe, kentang siapin. klo udah masukin ke kuah soto nya trus jangan lupa kasih garem biar enak trus cobain....makan'
+    'Daging digiling di blender, trus kasih aer biar mateng giling dagin, kasih garem kasih gula, udah digiling dibentuk, di masak... makan',
+    'Ikan lele masukin ke pengorenagn trus di goreng make minyak bimoli(SPONSOR), Trus angkat klo kira kira daj mateng, kasih sampel... makan',
+    'Nasi masukin ke penggorengan kasih kecap kasih cabe kasih bawah trus goreng abis itu kasih air klo mau basah trus angkat.... makan',
+    'Daging sapi, tomat cabe, kentang siapin. klo udah masukin ke kuah soto nya trus jangan lupa kasih garem biar enak trus cobain....makan',
+    'Daging sapi, tomat cabe, kentang siapin. klo udah masukin ke kuah soto nya trus jangan lupa kasih garem biar enak trus cobain....makan',
 
   ];
   List<String> img = [
-    'assets/images/bakso.jpg'
-        'assets/images/pecellele.jpeg'
-        'assets/images/nasigoreng.jpg'
-        'assets/images/sotolamongan.jpg'
-        'assets/images/sotobabat.jpg'
+    'assets/images/bakso.jpg',
+    'assets/images/pecellele.jpeg',
+    'assets/images/nasigoreng.jpg',
+    'assets/images/sotolamongan.jpg',
+    'assets/images/sotobabat.jpg',
   ];
+
 
   @override
   Widget build(BuildContext context) {
@@ -155,7 +155,7 @@ class __PageListState extends State<_PageList> {
           Container(
             height: 2.0,
             width: 200.0,
-            color: Colors.lightGreenAccent,
+            color: Colors.redAccent,
             padding: EdgeInsets.symmetric(horizontal: 90.0),
           ),
           SizedBox(
@@ -169,7 +169,7 @@ class __PageListState extends State<_PageList> {
       ),
     );
   }
-//tolong benerin yaa yang tau
+
 }
 
 
